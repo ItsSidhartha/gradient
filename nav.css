@@ -6,6 +6,7 @@
 .container {
   display: flex;
   justify-content: center;
+  gap: 5px;
 }
 
 .sidebar {
@@ -13,6 +14,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 5px;
+
 }
 
 .sidebar div {
@@ -39,8 +42,6 @@
   background-color: blue;
 }
 
-.main {
-  height: 100vh;
-  width: 90%;
-  background-image: radial-gradient(circle closest-side at center, white, rgb(255, 255, 255) 10%, gold 50%, orange, rgb(236, 89, 10), black, black);
+#grean-blue {
+  background-color: green;
 }
