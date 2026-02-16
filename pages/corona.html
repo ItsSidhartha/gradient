@@ -3,20 +3,26 @@
 <head>
   <title>Corona</title>
   <link rel="stylesheet" href="../../nav.css">
+  <link rel="stylesheet" href="../main.css">
   <style>
-    .main {
-      height: 100vh;
-      width: 90%;
+    .main,
+    #current {
       background-image: radial-gradient(circle closest-side at center, white, rgb(255, 255, 255) 10%, gold 50%, orange, rgb(236, 89, 10), black, black);
+    }
+
+    #current a {
+      color: white;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="sidebar">
-      <div id="corona"><a href="/pages/corona.html">Corona</a></div>
-      <div id="ukraine"><a href="/pages/ukraine.html">Ukraine</a></div>
-      <div id="grean-blue"><a href="/pages/grean-blue.html">Green-Blue</a></div>
+      <div class="links" id="current"><a href="/pages/corona.html">Corona</a></div>
+      <div class="links"><a href="/pages/ukraine.html">Ukraine</a></div>
+      <div class="links"><a href="/pages/grean-blue.html">Green-Blue</a></div>
+      <div class="links"><a href="/pages/repeating-line.html">Repeating-line</a></div>
+      <div class="links"><a href="/pages/bulb.html">Bulb</a></div>
     </div>
     <div class="main"></div>
   </div>

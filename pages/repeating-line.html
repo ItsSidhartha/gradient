@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Green-Blue</title>
-  <link rel="stylesheet" href="../../nav.css">
+  <title>Repeating-line</title>
+  <link rel="stylesheet" href="../nav.css">
   <link rel="stylesheet" href="../main.css">
   <style>
     .main,
     #current {
-      background-image: linear-gradient(rgb(12, 133, 12), rgba(2, 61, 128, 0.807));
+      background: repeating-linear-gradient(black,
+          hsl(0, 0%, 0%) 20px,
+          hsla(60, 71%, 50%, 0.876) 20px,
+          yellow 25px);
     }
 
     #current a {
@@ -20,11 +23,10 @@
     <div class="sidebar">
       <div class="links"><a href="/pages/corona.html">Corona</a></div>
       <div class="links"><a href="/pages/ukraine.html">Ukraine</a></div>
-      <div class="links" id="current"><a href="/pages/grean-blue.html">Green-Blue</a></div>
-      <div class="links"><a href="/pages/repeating-line.html">Repeating-line</a></div>
+      <div class="links"><a href="/pages/grean-blue.html">Green-Blue</a></div>
+      <div class="links" id="current"><a href="/pages/repeating-line.html">Repeating-line</a></div>
       <div class="links"><a href="/pages/bulb.html">Bulb</a></div>
     </div>
     <div class="main"></div>
-  </div>
 </body>
 </html>
