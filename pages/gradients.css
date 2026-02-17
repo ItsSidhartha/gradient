@@ -1,0 +1,28 @@
+.corona {
+  background-image: radial-gradient(circle closest-side at center, white, rgb(255, 255, 255) 10%, gold 50%, orange, rgb(236, 89, 10), black, black);
+}
+
+.bulb img {
+  height: 30%;
+  position: relative;
+  top: -20px;
+}
+
+.bulb {
+  background: radial-gradient(circle 430px at 50% 200px, rgb(255, 187, 0), #111);
+}
+
+.green-blue {
+  background-image: linear-gradient(rgb(12, 133, 12), rgba(2, 61, 128, 0.807));
+}
+
+.repeating-line {
+  background: repeating-linear-gradient(black,
+      hsl(0, 0%, 0%) 20px,
+      hsla(60, 71%, 50%, 0.876) 20px,
+      yellow 25px);
+}
+
+.ukraine {
+  background: linear-gradient(blue 40%, white 50%, yellow 60%, yellow);
+}
