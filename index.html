@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
-  <link rel="stylesheet" href="/home.css">
-  <link rel="stylesheet" href="/gradients.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="gradients.css">
+  <link rel="stylesheet" href="nav.css">
+  <style>
+    .main {
+      display: none;
+    }
+
+    .main:target {
+      display: block;
+      height: 100vh;
+      width: 90%;
+      overflow: hidden;
+    }
+
+    .flex {
+      display: flex;
+      justify-content: center;
+    }
+
+    .pages {
+      width: 85%;
+      position: relative;
+      left: 20%
+    }
+  </style>
 </head>
 <body>
-  <div class="main-container">
-    <div class="header">
-      <p>Gradients</p>
+  <div class="container">
+    <div class="sidebar">
+      <div class="links"><a href="#corona">Corona</a></div>
+      <div class="links"><a href="#ukraine">Ukraine</a></div>
+      <div class="links"><a href="#green-blue">Green-Blue</a></div>
+      <div class="links"><a href="#repeating-line">Repeating-line</a></div>
+      <div class="links"><a href="#bulb">Bulb</a></div>
+      <div class="links"><a href="#indian-flag">India</a></div>
     </div>
-    <div class="previews-container">
-      <a href="/corona.html">
-        <div class="preview-container">
-          <div class="preview corona"></div>
-          <div class="name"> Corona</div>
-        </div>
-      </a>
-      <a href="/ukraine.html">
-        <div class="preview-container">
-          <div class="preview ukraine"></div>
-          <div class="name"> Ukraine</div>
-        </div>
-      </a>
-      <a href="/green-blue.html">
-        <div class="preview-container">
-          <div class="preview green-blue"></div>
-          <div class="name"> Green blue</div>
-        </div>
-      </a>
-      <a href="/repeating-line.html">
-        <div class="preview-container">
-          <div class="preview repeating-line"></div>
-          <div class="name"> Repeating line</div>
-        </div>
-      </a>
-      <a href="/bulb.html">
-        <div class="preview-container">
-          <div class="preview bulb"></div>
-          <div class="name"> Bulb</div>
-        </div>
-      </a>
+
+    <div class="pages">
+      <div id="corona" class="main"></div>
+      <div id="bulb" class="main">
+        <img src="/bulb.png" alt="bulb">
+      </div>
+      <div id="ukraine" class="main"></div>
+      <div id="green-blue" class="main"></div>
+      <div id="indian-flag" class="main">
+        <div class="chakra"></div>
+      </div>
+      <div id="repeating-line" class="main"></div>
     </div>
   </div>
 </body>
